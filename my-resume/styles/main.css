@@ -1,0 +1,82 @@
+html {font-size: 80.00%}
+body {
+	background-color: grey; 
+	font-family: "Georgia", "Times New Roman", serif;
+} 
+h1, h2, h3 {
+	color: black; 
+	font-family: "Tahoma", "Helvetica", "Droid Sans", sans-serif; 
+	letter-spacing: 1px;
+}
+h1, h2 {
+	border-bottom: 0.07142855em double #444; 
+	color: pink; 
+	font: normal 3.5em/2 "Georgia", sans-serif; 
+	text-align: center;}
+h2 {
+	color: #000; 
+	font-size: 1.5em; 
+	letter-spacing: 0.07142855em; 
+} 
+h3 {
+	border-bottom: 0.07142855em solid #333; 
+	font-size: 1.25em; 
+	line-height: 1.42857em; 
+	margin-bottom: 0.375em; 
+	margin-top: 1.05357em; 
+	position: relative;
+}  
+
+p {
+	margin-bottom: 0.5em; m
+	argin-top: 1em;
+}
+p + p {
+	margin-top: 1.5em;
+}
+p + ul {
+	margin-top: 0.75em;
+}
+footer p, footer p + p {
+	margin: 0;
+}
+
+header, footer {
+	clear: both;
+}
+header h2, header p {
+	padding: 0 40px; 
+	width: 510px;
+}
+header h1 {
+	text-shadow: 2px 3px 2px #999;
+}
+
+.page {
+	background: #fff; 
+	border: 0.07142855em 
+	solid #CECECE; 
+	margin: 0.35714286em auto 1em; 
+	padding-bottom: 1.5em; 
+	position: relative; 
+	width: 960px;
+}
+
+.time {
+	font-size: 0.75em; 
+	font-weight: normal; 
+	float: right; 
+	margin-top: 0; 
+	padding-top: 0; 
+	position: absolute; 
+	right: 0;
+} 
+
+
+ul {
+	margin: 0 2em 0.857em;
+}
+ul li {
+	list-style-type: square; 
+	position: relative;
+}
